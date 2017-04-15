@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="local"
+           fetch="file:///media/osboxes/fa7dd3e7-f161-4089-8c65-39d94ce9a2e6/n-repos/tesla" />
+
+  <remote  name="hammerhead-unleashed"
+           fetch="https://github.com/hammerhead-unleashed" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -36,7 +41,8 @@
            sync-j="4" />
 
   <!-- Tesla Repo's -->
-  <project path="manifest" name="manifest" remote="tesla" />
+  <project name="local_manifest" path=".repo/local_manifests" remote="local" revision="n7.1" />
+  <project path="manifest" name="manifest" remote="hammerhead-unleashed" />
   <project path="build" name="build" groups="pdk,tradefed" remote="tesla" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
