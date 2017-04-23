@@ -3,6 +3,9 @@
   <remote  name="local"
            fetch="file:///media/osboxes/fa7dd3e7-f161-4089-8c65-39d94ce9a2e6/n-repos/tesla" />
 
+  <remote  name="YAOSP"
+           fetch="https://github.com/YAOSP-NG" />
+
   <remote  name="hammerhead-unleashed"
            fetch="https://github.com/hammerhead-unleashed" />
 
