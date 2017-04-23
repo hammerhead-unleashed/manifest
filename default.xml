@@ -155,10 +155,6 @@
   <project path="external/google" name="external_google" remote="tesla" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="tesla" />  
 
-  <!-- OTA -->
-  <project path="packages/apps/SlimOTA" name="packages_apps_SlimOTA" remote="tesla" revision="n7.1" />
-      <copyfile src="ota_conf" dest="ota_conf" />
-  </project>
   
   <!-- OMS -->
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
