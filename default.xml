@@ -45,7 +45,7 @@
 
   <!-- Tesla Repo's -->
   <project name="local_manifest" path=".repo/local_manifests" remote="local" revision="n7.1" />
-  <project path="manifest" name="manifest" remote="hammerhead-unleashed" />
+  <project path="manifest" name="manifest" remote="hammerhead-unleashed" revision="n7.1.1" />
   <project path="build" name="build" groups="pdk,tradefed" remote="tesla" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
